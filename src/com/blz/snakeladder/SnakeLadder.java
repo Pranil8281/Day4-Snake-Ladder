@@ -30,14 +30,17 @@ public class SnakeLadder {
 			System.out.println("Snake");
 			position = position - dice;
 		}
-		else {
+		
+		else
+		{
 			System.out.println("No Play");
 		}
+		
 		if (position < 0)
 			position = 0;
+		
 		System.out.println("position: " + position);
 		}       
         
 	}
 }
-	
